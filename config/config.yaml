@@ -149,7 +149,23 @@ report:
 
   display_mode: "keyword"             # 分组维度: keyword | platform
                                       # keyword: 按关键词分组显示（默认）
-                                      # platform: 按平台/来源分组显示
+ keyword:
+    - "特朗普"
+    - "Trump"
+    - "JD Vance"
+    - "金十"
+    - "美联储"
+    - "FED"
+    - "降息"
+    - "原油"
+    - "WTI"
+    - "API原油"
+    - "EIA"
+    - "非农"
+    - "加密货币"
+    - "比特币"
+    - "BTC"
+    - "ETH"                                     
 
   # 关键词模式分组排序方式（仅 keyword 模式生效）
   # true: 按 frequency_words.txt 的定义顺序排列
@@ -588,23 +604,4 @@ advanced:
     slack: 4000
   batch_send_interval: 3              # 批次发送间隔（秒）
   feishu_message_separator: "━━━━━━━━━━━━━━━━"
-  # ===============================================================
-# 12. 交易员精准监控词表 (手动添加)
-# ===============================================================
-keywords:
-  - "特朗普"
-  - "Trump"
-  - "JD Vance"
-  - "金十"
-  - "美联储"
-  - "FED"
-  - "降息"
-  - "原油"
-  - "WTI"
-  - "API原油"
-  - "EIA"
-  - "非农"
-  - "加密货币"
-  - "比特币"
-  - "BTC"
-  - "ETH"
+  
